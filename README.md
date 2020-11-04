@@ -1,5 +1,5 @@
 # amazon_mapreduce
-Java code for map reduce on dsba-hadoop.uncc.edu.  There are 14,741,571 amazon products and 157,260,920 amazon product reviews.
+Java code for map reduce on dsba-hadoop.uncc.edu.  There are 14,741,571 amazon products and 153,871,242 amazon product reviews.
 
 # Executing AmazonProductAnalyzeFields
 **Be sure to replace "rfox12" with your own user name below!**

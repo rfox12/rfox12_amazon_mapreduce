@@ -72,3 +72,36 @@ Java code for map reduce on dsba-hadoop.uncc.edu.  There are 14,741,571 amazon p
 |title|14741571|
 |title-blank-string|4366|
 |title-string|14737205|
+
+# AmazonReviewAnalyzeFields
+(Execution is similar to AmazonProductAnalyzeFields)
+ The output is:
+|field            |count       |
+|-----------------|-----------:|
+|asin|153871242|
+|asin-string|153871242|
+|image|2357038|
+|image-array|2357038|
+|overall|153871242|
+|overall-number|153871242|
+|reviewerID|153871242|
+|reviewerID-string|153871242|
+|reviewerName|153861909|
+|reviewerName-blank-string|1058|
+|reviewerName-string|153860851|
+|reviewText|153804836|
+|reviewText-blank-string|238|
+|reviewText-string|153804598|
+|reviewTime|153871242|
+|reviewTime-string|153871242|
+|style|107566592|
+|style-object|107566592|
+|summary|153829179|
+|summary-blank-string|460|
+|summary-string|153828719|
+|unixReviewTime|153871242|
+|unixReviewTime-number|153871242|
+|verified|153871242|
+|verified-boolean|153871242|
+|vote|21474388|
+|vote-string|21474388|

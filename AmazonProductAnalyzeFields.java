@@ -60,11 +60,11 @@ public class AmazonProductAnalyzeFields extends Configured implements Tool {
 
     		// This helper will configure how table data feeds into the "map" method
 		TableMapReduceUtil.initTableMapperJob(
-			"rfox12:products",        	// input HBase table name
+			"rfox12:products_10000",       	// input HBase table name
 			scan,             		// Scan instance to control CF and attribute selection
 			MapReduceMapper.class,   	// Mapper class
 			Text.class,             	// Mapper output key
-			IntWritable.class,             // Mapper output value
+			IntWritable.class,		// Mapper output value
 			job,				// This job
 			true				// Add dependency jars (keep this to true)
 		);

@@ -1,11 +1,11 @@
-# amazon_mapreduce
+# rfox12_amazon_mapreduce
 Java code for map reduce on dsba-hadoop.uncc.edu.  There are 14,741,571 amazon products and 153,871,242 amazon product reviews.
 
 # Executing AmazonProductAnalyzeFields
 **Be sure to replace "rfox12" with your own user name below!**
 1. Log into dsba-hadoop.uncc.edu using ssh
-2. `git clone https://github.com/rfox12-edu/amazon_mapreduce.git` to clone this repo
-3. Go into the repo directory.  In this case: `cd amazon_mapreduce`
+2. `git clone https://github.com/rfox12-edu/rfox12_amazon_mapreduce.git` to clone this repo
+3. Go into the repo directory.  In this case: `cd rfox12_amazon_mapreduce`
 4. Make a "build" directory (if it does not already exist): `mkdir build`
 5. Compile the java code (all one line).  You may see some warnings--that' ok. 
 `javac -cp /opt/cloudera/parcels/CDH/lib/hadoop/client/*:/opt/cloudera/parcels/CDH/lib/hbase/* AmazonProductAnalyzeFields.java -d build -Xlint`

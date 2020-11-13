@@ -1,6 +1,9 @@
 # rfox12_amazon_mapreduce
 Java code for map reduce on dsba-hadoop.uncc.edu.  There are 14,741,571 amazon products and 153,871,242 amazon product reviews.
 
+# gson JavaDoc
+https://www.javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/com/google/gson/JsonObject.html
+
 # Executing AmazonProductAnalyzeFields
 **Be sure to replace "rfox12" with your own user name below!**
 1. Log into dsba-hadoop.uncc.edu using ssh

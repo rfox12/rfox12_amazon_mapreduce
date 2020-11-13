@@ -4,6 +4,12 @@ Java code for map reduce on dsba-hadoop.uncc.edu.  There are 14,741,571 amazon p
 # gson JavaDoc
 https://www.javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/com/google/gson/JsonObject.html
 
+# Test Harness
+You can test a small snipped of code (e.g. JSON parsing and manipulation) using jdoole.com.
+1. Go to https://www.jdoodle.com/online-java-compiler/
+2. Click on the `...` button after the `Execute` button.  Then select "*External Libraries (from Maven repo)*" and paste in `com.google.code.gson:gson:2.8.6`
+3. Paste the code from `test_harness.java` into the text window and select `Execute`
+
 # Executing AmazonProductAnalyzeFields
 **Be sure to replace "rfox12" with your own user name below!**
 1. Log into dsba-hadoop.uncc.edu using ssh
